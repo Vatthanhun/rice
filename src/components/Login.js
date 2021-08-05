@@ -21,7 +21,7 @@ const Login = () => {
 
     const {currentUser} = useContext(AuthContext)
     if (currentUser) {
-        return <Redirect to="/Pages/dashboard" />
+        return <Redirect to="dashboard" />
     }
 
     return (

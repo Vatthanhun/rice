@@ -20,7 +20,7 @@ const SignUp = () => {
     }
 
     if (currentUser) {
-        return <Redirect to="/Pages/dashboard"/>
+        return <Redirect to="/dashboard"/>
     }
 
     return (
